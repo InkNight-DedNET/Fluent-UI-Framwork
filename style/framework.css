@@ -1,0 +1,80 @@
+.frame-basebg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.frame-base {
+    box-sizing: border-box;
+}
+
+.panel {
+    border-radius: 32px;
+}
+
+.frame-d-flex {
+    display: flex;
+}
+
+.frame-flex1 {
+    flex: 1;
+}
+
+.frame-df-direction-row {
+    flex-direction: row;
+}
+
+.frame-df-direction-column {
+    flex-direction: column;
+}
+
+.frame-df-warp {
+    flex-wrap: wrap;
+}
+
+.frame-colornbg3 {
+    background-color: #f5f5f5;
+}
+
+.frame-w-2 {
+    width: 20%
+}
+
+.frame-w-8 {
+    width: 80%
+}
+
+.frame-w-10 {
+    width: 100%;
+}
+
+.frame-abs-w-128 {
+    width: 128px;
+}
+
+.frame-w-auto {
+    width: auto;
+}
+
+.frame-h-1 {
+    height: 10%
+}
+
+.frame-h-9 {
+    height: 90%;
+}
+
+.frame-h-10 {
+    height: 100%;
+}
+
+.frame-abs-h-128 {
+    height: 128px;
+}
+
+.frame-h-auto {
+    height: auto;
+}
+
