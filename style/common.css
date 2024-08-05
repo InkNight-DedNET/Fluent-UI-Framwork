@@ -20,6 +20,14 @@ body,div {
     padding: 16px;
 }
 
+.padding-l-4px {
+    padding: 0 0 0 4px;
+}
+
+.padding-l-8px {
+    padding: 0 0 0 8px;
+}
+
 .padding-l-32px {
     padding: 0 0 0 32px;
 }

@@ -1,4 +1,10 @@
+@font-face {
+    font-family: SourceHan_CN_Heavy;
+    src: url(../test-resource/SourceHanSansCN-Heavy.otf);
+}
+
 .frame-basebg {
+    font-family: SourceHan_CN_Heavy;
     position: fixed;
     top: 0;
     left: 0;
@@ -28,6 +34,10 @@
 
 .frame-df-direction-column {
     flex-direction: column;
+}
+
+.frame-df-align-content-center {
+    align-content: center;
 }
 
 .frame-df-warp {
@@ -78,3 +88,16 @@
     height: auto;
 }
 
+.frame-border-radius-100 {
+    border-radius: 100%;
+}
+
+.frame-font-size-32 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.frame-font-size-48 {
+    font-size: 48px;
+    line-height: 52px;
+}
