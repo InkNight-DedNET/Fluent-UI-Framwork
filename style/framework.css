@@ -48,6 +48,11 @@
     background-color: #f5f5f5;
 }
 
+.frame-w-fit {
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
 .frame-w-2 {
     width: 20%
 }
@@ -60,8 +65,28 @@
     width: 100%;
 }
 
+.frame-abs-w-32 {
+    width: 32px;
+}
+
 .frame-abs-w-128 {
     width: 128px;
+}
+
+.frame-abs-w-256 {
+    width: 256px;
+}
+
+.frame-abs-w-384 {
+    width: 384px;
+}
+
+.frame-abs-w-256-min {
+    min-width: 256px;
+}
+
+.frame-abs-w-512-min {
+    min-width: 512px;
 }
 
 .frame-w-auto {
@@ -78,6 +103,14 @@
 
 .frame-h-10 {
     height: 100%;
+}
+
+.frame-abs-h-64 {
+    height: 64px;
+}
+
+.frame-abs-h-96 {
+    height: 96px;
 }
 
 .frame-abs-h-128 {

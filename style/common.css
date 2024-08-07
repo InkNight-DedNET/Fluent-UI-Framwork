@@ -4,12 +4,24 @@ body,div {
     border: 0;
 }
 
+.postion-relative {
+    position: relative;
+}
+
 .bg-white {
     background-color: #FFF;
 }
 
+.bg-orange {
+    background-color: #FF960F;
+}
+
 .margin-32px {
     margin: 32px;
+}
+
+.margin-l-32px {
+    margin-left: 32px;
 }
 
 .padding-32px {
@@ -21,19 +33,32 @@ body,div {
 }
 
 .padding-l-4px {
-    padding: 0 0 0 4px;
+    padding-bottom: 4px;
 }
 
 .padding-l-8px {
-    padding: 0 0 0 8px;
+    padding-bottom: 8px;
+}
+
+.padding-r-32px {
+    padding-right: 32px;
+}
+
+.padding-u-32px {
+    padding-top: 32px;
 }
 
 .padding-l-32px {
-    padding: 0 0 0 32px;
+    padding-bottom: 32px;
 }
 
 .padding-ud-32px {
-    padding: 32px 0 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
 
 .box-shadow-header {
