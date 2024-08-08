@@ -1,0 +1,113 @@
+.frame-base {
+    box-sizing: border-box;
+}
+
+.frame-d-flex {
+    display: flex;
+}
+
+.frame-flex1 {
+    flex: 1;
+}
+
+.frame-df-direction-row {
+    flex-direction: row;
+}
+
+.frame-df-direction-column {
+    flex-direction: column;
+}
+
+.frame-df-align-content-center {
+    align-content: center;
+}
+
+.frame-df-warp {
+    flex-wrap: wrap;
+}
+
+.frame-colornbg3 {
+    background-color: #f5f5f5;
+}
+
+.frame-w-fit {
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.frame-w-2 {
+    width: 20%
+}
+
+.frame-w-8 {
+    width: 80%
+}
+
+.frame-w-10 {
+    width: 100%;
+}
+
+.frame-abs-w-32 {
+    width: 32px;
+}
+
+.frame-abs-w-128 {
+    width: 128px;
+}
+
+.frame-abs-w-256 {
+    width: 256px;
+}
+
+.frame-abs-w-384 {
+    width: 384px;
+}
+
+.frame-abs-w-256-min {
+    min-width: 256px;
+}
+
+.frame-abs-w-512-min {
+    min-width: 512px;
+}
+
+.frame-w-auto {
+    width: auto;
+}
+
+.frame-h-1 {
+    height: 10%
+}
+
+.frame-h-9 {
+    height: 90%;
+}
+
+.frame-h-10 {
+    height: 100%;
+}
+
+.frame-abs-h-64 {
+    height: 64px;
+}
+
+.frame-abs-h-96 {
+    height: 96px;
+}
+
+.frame-abs-h-128 {
+    height: 128px;
+}
+
+.frame-h-auto {
+    height: auto;
+}
+
+.frame-border-radius-100 {
+    border-radius: 100%;
+}
+
+.frame-font-size-24 {
+    font-size: 24px;
+    line-height: 24px;
+}
