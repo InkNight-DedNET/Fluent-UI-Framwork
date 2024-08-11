@@ -30,6 +30,10 @@
     background-color: #f5f5f5;
 }
 
+.frame-colornbg4 {
+    background-color: #f0f0f0;
+}
+
 .frame-w-fit {
     width: fit-content;
     width: -moz-fit-content;

@@ -15,6 +15,7 @@
 
 .frame-basebg {
     font-family: SourceHan_CN_Heavy;
+    background-color: #fafafa;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,10 +27,42 @@
     border-radius: 32px;
 }
 
-.menu {
-    
+.menu-item {
+    height: 24px;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
 }
 
-.menu-item {
+.menu-item > a > img {
+    margin-right: 8px;
+}
 
+
+.menu-item.selected {
+    position: relative;
+    box-shadow: 0 0 8px 0 #00000025;
+    border-radius: 8px;
+}
+
+.menu-item.selected::before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 16px; 
+    background-color: #000; 
+    position: absolute;
+    left: 0px; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-item > a {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
 }
