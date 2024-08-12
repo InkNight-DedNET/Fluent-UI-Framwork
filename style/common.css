@@ -54,7 +54,7 @@ a {
 }
 
 .padding-l-32px {
-    padding-bottom: 32px;
+    padding-left: 32px;
 }
 
 .padding-ud-32px {
@@ -64,10 +64,4 @@ a {
 
 .overflow-hidden {
     overflow: hidden;
-}
-
-.box-shadow-header {
-    box-shadow: 
-        0px 15px 20px 0px #00000025,
-        0px 0px 5px 0px #00000050;
 }

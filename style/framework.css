@@ -13,18 +13,114 @@
     src: url(../test-resource/SourceHanSansCN-Bold.otf);
 }
 
-.frame-basebg {
+@media screen and (max-width: 960px){
+
+    .frame-body.frame-dynamic-body-direction {
+        flex-direction: column;
+    }
+
+    .menu {
+        height: fit-content !important;
+        height: -moz-fit-content !important;
+        width: 100% !important;
+    }
+
+    .menu-setting {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 960px){
+    
+    .frame-body.frame-dynamic-body-direction {
+        flex-direction: row;
+    }
+
+    .menu-setting {
+        width: 100%;
+        height: 100%;
+        font-family: SourceHan_CN_Bold;
+    }
+
+}
+
+body {
     font-family: SourceHan_CN_Heavy;
+}
+
+.frame-base {
     background-color: #fafafa;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.frame-header {
+    width: 100%;
+    height: 64px;
+    position: relative;
+}
+
+.frame-header.box-shadow {
+    box-shadow: 
+        0px 15px 20px 0px #00000025,
+        0px 0px 5px 0px #00000050;
+}
+
+.frame-body {
+    display: flex;
+    flex: 1;
 }
 
 .panel {
+    flex: 1;
+    min-width: 512px;
+    padding: 32px;
+}
+
+.content {
     border-radius: 32px;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    min-width: 256px;
+    width: 256px;
+    height: 100%;
+    padding-left: 32px;
+
+}
+
+.menu-item.profile-simplify {
+    display: flex;
+    width: 100%;
+    height: 96px;
+    padding: 32px 0 32px 0;
+    margin: 0;
+}
+
+.menu-item.profile-simplify > .profile-pic {
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 100%;
+}
+
+.menu-item.profile-simplify > .profile-pic > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.menu-item.profile-simplify > .profile-simplify-text{
+    align-content: center;
+    font-size: 24px;
+    line-height: 26px;
 }
 
 .menu-item {
