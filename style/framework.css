@@ -20,15 +20,27 @@
     }
 
     .menu {
+        box-sizing: border-box;
         height: fit-content !important;
         height: -moz-fit-content !important;
+        min-width: 0 !important;
         width: 100% !important;
+        padding: 16px 16px 0 16px !important;
+    }
+
+    .menu-item.profile-simplify {
+        padding: 0 !important;
     }
 
     .menu-setting {
         display: none;
     }
 
+    .panel {
+        min-width: 0;
+        padding: 16px;
+    }
+    
 }
 
 @media screen and (min-width: 960px){
@@ -42,6 +54,11 @@
         height: 100%;
         font-family: SourceHan_CN_Bold;
     }
+
+    .panel {
+        min-width: 512px;
+        padding: 32px;
+    }    
 
 }
 
@@ -79,8 +96,6 @@ body {
 
 .panel {
     flex: 1;
-    min-width: 512px;
-    padding: 32px;
 }
 
 .content {
@@ -93,16 +108,15 @@ body {
     min-width: 256px;
     width: 256px;
     height: 100%;
-    padding-left: 32px;
-
+    padding: 0 0 0 32px;
 }
 
 .menu-item.profile-simplify {
     display: flex;
     width: 100%;
     height: 96px;
-    padding: 32px 0 32px 0;
-    margin: 0;
+    margin: 16px 0 16px 0 !important;
+    padding: 0;
 }
 
 .menu-item.profile-simplify > .profile-pic {
@@ -125,7 +139,7 @@ body {
 
 .menu-item {
     height: 24px;
-    border-radius: 8px;
+    border-radius: 16px;
     padding: 12px;
     margin-bottom: 8px;
 }
