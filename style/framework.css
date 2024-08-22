@@ -13,10 +13,21 @@
     src: url(../test-resource/SourceHanSansCN-Bold.otf);
 }
 
+img {
+    -webkit-user-drag: none;
+}
+
 @media screen and (max-width: 960px){
 
     .frame-body.frame-dynamic-body-direction {
         flex-direction: column;
+    }
+
+    .frame-header.box-shadow > .search,
+    .frame-header.box-shadow > .menu,
+    .frame-header.box-shadow > .frame-header-search,
+    .menu-setting {
+        display: none;
     }
 
     .menu {
@@ -30,10 +41,6 @@
 
     .menu-item.profile-simplify {
         padding: 0 !important;
-    }
-
-    .menu-setting {
-        display: none;
     }
 
     .panel {
@@ -81,12 +88,47 @@ body {
     width: 100%;
     height: 64px;
     position: relative;
+    display: flex;
 }
 
 .frame-header.box-shadow {
     box-shadow: 
         0px 15px 20px 0px #00000025,
         0px 0px 5px 0px #00000050;
+}
+
+.frame-header.box-shadow > div {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    padding: 16px 0 16px 0;
+}
+
+.frame-header.box-shadow > .menu {
+
+}
+
+.frame-header.box-shadow > .search {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+
+.frame-header.box-shadow > .search > div {
+    box-sizing: border-box;
+    width: 256px;
+    height: 100%;
+    border: 2px solid #24242450;
+    border-radius: 8px;
+    padding: 0 8px 0 8px;
+    overflow: hidden;
+}
+
+.frame-header.box-shadow > .search > div > input {
+    line-height: 0px;
+    border: none;
+    width: 100%;
+    height: 100%;
 }
 
 .frame-body {

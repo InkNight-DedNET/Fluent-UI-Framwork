@@ -43,6 +43,18 @@
     width: 20%
 }
 
+.frame-w-3 {
+    width: 30%
+}
+
+.frame-w-5 {
+    width: 50%
+}
+
+.frame-w-7 {
+    width: 70%
+}
+
 .frame-w-8 {
     width: 80%
 }
